@@ -1,0 +1,57 @@
+:root {
+  --green: #5F816B;
+  --navy: #2A3A6B;
+  --ivory: #FEFEF3;
+  --peach: #FFDAB9;
+}
+
+body {
+  background-color: var(--green);
+  margin: 0px;
+}
+
+.navbar {
+  height: 70px;
+  font-family: 'Pacifico', cursive;
+  font-size: 20px;
+}
+
+.nav-list {
+  display: table;
+	margin: 0px;
+  padding: 0px;
+  height: 100%;
+  width: 100%;
+	text-align: center;
+	background-color: var(--ivory);
+}
+
+.nav-item {
+  display: table-cell;
+  cursor: pointer;
+  vertical-align: middle;
+  height: 100%;
+  width: 20%;
+  color: var(--navy);
+}
+
+.nav-active, .nav-hover {
+  background-color: var(--peach);
+}
+
+.home .left {
+  display: inline-block;
+  padding: 5px 10px 0px 70px;
+  width: 44%;
+}
+
+.home .left h1 {
+  color: var(--ivory);
+  font-family: 'Amatic SC', cursive;
+  font-size: 96px;
+  text-align: left;
+}
+
+.hidden {
+  display: none;
+}
