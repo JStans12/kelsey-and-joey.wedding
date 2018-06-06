@@ -113,7 +113,7 @@ body {
 .rsvp {
   font-family: 'Amatic SC', cursive;
   color: var(--peach);
-  font-size: 48px;
+  font-size: 36px;
   margin-top: 28px;
   margin-bottom: 10px;
 }
@@ -121,7 +121,7 @@ body {
 .rsvp a {
   font-family: 'Amatic SC', cursive;
   color: var(--navy);
-  font-size: 48px;
+  font-size: 32px;
   margin-top: 28px;
   margin-bottom: 10px;
 }
